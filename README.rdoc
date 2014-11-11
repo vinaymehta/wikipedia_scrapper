@@ -3,7 +3,7 @@
 Things you may want to cover:
 
 * Ruby version
-	Ruby version can be 1.9.3 or above
+		Ruby version can be 1.9.3 or above
 
 * To run wiki scrapper rake task, Use Command
-	rake "redis_wiki_scrapper[01/11/2014, 05/11/2014]"
+		rake "redis_wiki_scrapper[Date1, Date2]" #Here Date can be of format 'dd/mm/yyyy'
