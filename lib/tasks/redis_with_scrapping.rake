@@ -73,9 +73,3 @@ def redis_read_and_save_data(file_path, date)
 		puts "no"
 	end
 end
-
-def grep_with_index(regex)
-  self.enum_for(:each_with_index).select {|x,i| x =~ regex}
-end
-
-# val = data.each_with_index.find{|line, index| line.include?(search_title)}
